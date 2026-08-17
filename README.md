@@ -4,7 +4,7 @@ Sistema de tickets de pago para proveedores de un centro de reciclaje en Califor
 
 ## Contexto
 
-El proceso anterior era manual: calculadora, Excel, notas en papel. El tiempo promedio por operación era de 15 minutos. Con este sistema bajó a 3 minutos.
+El proceso anterior era manual: calculadora, Excel, notas en papel. El tiempo promedio por operación era de 10 minutos. Con este sistema bajó a 5 minutos.
 
 ## Qué hace
 
