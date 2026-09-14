@@ -1,10 +1,10 @@
 # ecorecycle-ticket-system
 
-Sistema de tickets de pago para proveedores de un centro de reciclaje en California. En uso activo en producción.
+Sistema de tickets de pago para proveedores de un centro de reciclaje en California. Creado a partir de una necesidad del trabajo de caja.
 
 ## Contexto
 
-El proceso anterior era manual: calculadora, Excel, notas en papel. El tiempo promedio por operación era de 10 minutos. Con este sistema bajó a 5 minutos.
+La lista de materiales y el generador de tickets se manejaban por separado, con captura duplicada. La aplicación reúne ambos pasos en una interfaz de mostrador. No se dispone de una medición documentada del ahorro de tiempo.
 
 ## Qué hace
 
@@ -16,7 +16,7 @@ React 18, JavaScript ES6+, Vite. Sin backend, toda la lógica corre en el client
 
 ## Nota sobre la arquitectura
 
-La aplicación está actualmente en un solo componente (~1,500 líneas) organizado en secciones internas. La siguiente versión refactorizará a componentes separados por responsabilidad.
+La aplicación está actualmente en un solo componente (~1,500 líneas) organizado en secciones internas. Una mejora pendiente es separar componentes por responsabilidad y añadir pruebas de los cálculos.
 
 ## Cómo correr
 
